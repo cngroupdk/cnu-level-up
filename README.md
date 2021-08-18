@@ -1,14 +1,15 @@
-# CNjokes
-Implementation of react app that consumes public API (CNU training)
+# CN Jokes
 
-[API to consume](https://api.chucknorris.io/)
+Implementation of React application that consumes public API (part of CNU training).
 
-## Target
+- [API to consume](https://api.chucknorris.io/)
 
-* App will display random CN joke
-* App can display any number of jokes (count determined by user)
-* App will display all available categories of jokes
-  * When clicked on category, random joke from this category will be displayed
-  * User can input number of jokes he want's to see in current category, then jokes are displayed
-* App will have input for fultext search of jokes, displaying first 25 jokes returned from API on every key stroke
-* Suprise me :)
+## Requirements
+
+- App will display random CN joke
+- App can display any number of jokes (count determined by the user)
+- App will display all available categories of jokes
+  - When clicked on a category, a random joke from this category will be displayed
+  - User can input a number of jokes he wants to see in the current category, then jokes are displayed
+- App will have input for full-text search of jokes, displaying the first 25 jokes returned from API as user types
+- Suprise me 🙂
