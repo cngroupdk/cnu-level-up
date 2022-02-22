@@ -6,7 +6,7 @@ This repo serves as your guide and place where you can find all information you 
 
 ## Table of content
 
-- Level 1: PC setup
+- [Level 1: PC setup](./Level%201)
 - Level 2: Javascript 101 (TBD)
 - Level 3: Git (TBD)
 - Level 4: Agile development (TBD)
