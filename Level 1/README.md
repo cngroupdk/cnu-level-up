@@ -14,6 +14,13 @@ Install a terminal emulator either [iTerm](https://iterm2.com/downloads.html), [
 
 For managing the `zshell` configuration we recommend [Oh My Zsh](https://ohmyz.sh/) that provides the hundreds of powerful plugins and beautiful themes
 
+### **Useful plugins and tools**
+
+- tig
+- ag (silverlight search)
+- wd
+- git
+
 ## 3. Node and node package manager
 
 - [node](https://nodejs.org/en/) latest version
@@ -32,3 +39,9 @@ If you choose **VS Code** here are some useful VS Code plugins:
 - [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)
 - [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
 - [change-case](https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)
+
+# Cheatsheets
+
+- [Mac shortcuts cheatsheet]()
+- [VS Code cheatsheet]()
+- [Terminal cheatsheet]()
