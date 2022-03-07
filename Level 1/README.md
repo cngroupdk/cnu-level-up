@@ -12,18 +12,18 @@ Frontend development requires basic knowledge of working in the command line. On
 
 For a beginner, the [iTerm2](https://iterm2.com/downloads.html) is the best choice. It comes with lots of bells and whistles and allows for some pretty advanced configurations. However, you do not need to overwhelm yourself with the options and adjusting the font family and size maybe the only configuration you will need.
 
-*Please note that installing a terminal app is not required and that you can handle everything command-line-related from within the built-in **VS Code** terminal. There's nothing wrong of using only this terminal as it provides you with the same environment as a standalone application would. Although a good terminal and the command-line knowledge empowers you to do many cool things, only few basic commands are essential at the beginning. For these reasons, a terminal built into your editor should suffice.*
+*Please note that installing a terminal app is not required and that you can handle everything command-line-related from within the built-in **VS Code** terminal. There's nothing wrong of using only this terminal as it provides you with the same environment as a standalone application would. Although a good terminal and command-line knowledge empowers you to do many cool things, only few basic commands are essential at the beginning. For these reasons, a terminal built into your editor should suffice.*
 
->  A pro tip - you don't need to re-enter previously used commands each time you want to use them since every terminal app has a history log that you can navigate through. The most simple way is to use the arrow-up key repeatedly on an empty command line to access previous commands. A better way, however, is to use `Ctrl+R` keys and then start typing beginning of your command. This would lead to a matching command form your history being listed. 
+>  A pro tip - you don't need to re-enter previously used commands each time you want to use them since every terminal app has a history log that you can navigate through. The most simple way is to use the arrow-up key repeatedly on an empty command line to access previous commands. A better way, however, is to press `Ctrl+R` keys and to start typing beginning of your command. This would lead to a matching command from your history being shown. 
 
 ## 3. Homebrew - the package manager
-Although the preferred way to install software on Macs is via the **App Store**, many essential developer tools are not available there, nor can they always be easily downloaded and installed manually. The `Node JS` environment is a good example of this. In order to install these tools, you need to use a special program - a package manager. Luckily, there's an excellent package manager available for **Mac** called **Homebrew**. It is installed- and operates from the command line.
+Although the preferred way to install software on Macs is via the **App Store**, many essential developer tools are not available there, nor can they always be easily downloaded and installed manually. The `Node JS` environment is a good example of this. In order to install these tools, you need to use a special program - a package manager. Luckily, there's an excellent package manager available for **Mac** called **Homebrew**. It is installed- and operates from- the command line.
 
 To install [Homebrew](https://brew.sh/), open your terminal and paste and run the following command:
 
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
-You can verify successful installation by typing command to install any Homebrew package, for example:
+You can verify successful installation by typing a command to install something, for example:
 
 `brew install wget`
 
@@ -44,39 +44,55 @@ What you will needed from the start, however, are the `xcode commnad line tools`
 
 You can verify the installation with: `nvm --version`
 
-To list currenty installed `node` versions, use: `nvm ls`
+To list currently installed `node` versions, use: `nvm ls`
 
 To add a particular version: `nvm install 10.16.0`
 
-Projects usually have a special file, `.nvmrc`, which contains the required version. Whenever you switch your terminal to such project's directory, use the command `nvm use` to activate the version from the `.nvmrc` file. `nvm` would warn you if the required version is not installed, all you need to to do in such case is to add with the command mentioned further above.
+
+A full installation guide can be found [here](https://tecadmin.net/install-nvm-macos-with-homebrew/).
+
+
+>Projects usually have a special file, `.nvmrc`, which contains the required version. Whenever you switch your terminal to such project's directory, use the command `nvm use` to activate the version from the `.nvmrc` file. `nvm` would warn you if that version is not installed, all you need to do in such case is to add it with the command mentioned above.
 
 **NPM**
 
-`npm` is package manager for `node` (just like Homebrew is for Mac). It allows you to install libraries and tools needed for development and is really the driving force of the whole `node` ecosystem. It is also automatically installed with `node`.
+`npm` is package manager for `node` (just like Homebrew is for Mac). It allows you to install libraries and tools needed for development and is really the driving force of the whole `node` ecosystem. It comes automatically with `node`.
 
-Every project contains a `package.json` file which lists all the packages that the project needs. These are installed with `npm install` command, which creates a local `node_modules` folder where the downloaded packages are placed. However, you may still want to install certain tools globally, so that those can be used across all your projects. One such tool is `yarn`, which is often the preferred command used when building your projects. To install it globally, use `npm install -g yarn`. The `-g` switch is what determines that something is installed and accessible globally and not in a local `node_modules` folder.
+Every project contains a `package.json` file which lists all the packages that the project needs. These are installed with `npm install` command, which creates a local `node_modules` folder where the downloaded packages are placed. However, you may still want to install certain tools globally, so that those can be used across all your projects. One such tool is `yarn`, which is often the preferred command used to build your projects. To install it globally, use `npm install -g yarn`. The `-g` switch is what determines that something is installed and accessible globally and not in a local `node_modules` folder.
 
 A word of caution - whenever you install something globally with `npm`, it is installed **only for the currently active version of `node`**. Thus, if you use `nvm` to switch to a different version and want to use the same global tool (like `yarn`), you must install it globally again.
 
-## 2. Terminal emulator
 
-Install a terminal emulator either [iTerm](https://iterm2.com/downloads.html), [Warp](https://www.warp.dev/) or any other you like.
+## 6. `zsh` and `oh-my-zsh`
+*Using these tools is entirely optional and only makes sense if you would like to spend more time in your terminal.*
 
-For managing the `zshell` configuration we recommend [Oh My Zsh](https://ohmyz.sh/) that provides the hundreds of powerful plugins and beautiful themes
+When you open a terminal and type in a command, it would get executed thanks to a command-line interpreter. In UNIX-based world of **Mac** and **Linux**, this interpreter is called a **shell**. **Mac** comes with a pre-installed default shell called `bash`, which allows you to do everything you may ever need to do in a shell. However, there are actually many different shells to choose from and switching from `bash` to something else can provide you with some niceties that make everyday life in the command line easier.
 
-### **Useful plugins and tools**
+`zsh`, together with its extension `oh-my-zsh`, is a version of shell which maintains lots of popularity among frontend developers. The extension adds many useful tools, which come as configurable plugins. There are many plugins to choose from, but for the start, `git` and `wd` can provide a nice productivity boost.
 
-- tig
-- ag (silverlight search)
-- wd
-- git
+**Installation**
 
-## 3. Node and node package manager
+You can install `zsh` via the good old Homebrew: `brew install zsh`.
+After the installation, **quit your terminal app and open it again**. If everything went well, you should now have the terminal pre-loaded with `zsh` instead of `bash`. Chances are, you won't spot any difference 😃.
 
-- [node](https://nodejs.org/en/) latest version
-- [nvm](https://github.com/nvm-sh/nvm) or [fnm](https://github.com/Schniz/fnm)
+[Adding oh-my-zsh](https://ohmyz.sh/#install) is done via the following command: 
 
-## 4. Code editor
+`$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+
+After installation, open the file `.zshrc` from your home folder (i.e. `/Users/myName/.zshrc`) and navigate to the line which starts with `plugins=(`.  The `git` plugin should be enabled by default, append `wd` after it, so that the line looks like this:
+`plugins=(git wd)`. 
+
+Save the file and quit and reopen the terminal.
+
+**GIT plugin in `zsh`**
+
+TBA
+
+**WD plugin in `zsh`**
+
+TBA
+
+## 7. Code editor
 
 This is also totally up to you. The most of our developers recommend [VS Code](https://code.visualstudio.com/) but you can also choose from vast number of other editors (vim, Atom, Webstorm...)
 
