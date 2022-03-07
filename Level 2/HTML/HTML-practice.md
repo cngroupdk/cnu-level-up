@@ -2,34 +2,35 @@
 
 Individual HTML elements are not enough to create a website. So let's see what more we need to build a simple website from scratch.
 
-How to create an HTML document
-First, let's open Visual Studio Code (or your favorite code editor). In the folder of your choice, create a new file and name it index.html.
+## How to create an HTML document
 
-In the index.html file, type ! (exclamation mark) and press enter. You will see something like this:
+First, let's open Visual Studio Code (or your favorite code editor). In the folder of your choice, create a new file and name it `index.html`.
 
-```
+In the `index.html` file, type `!` (exclamation mark) and press enter. You will see something like this:
+
+```html index.html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-
-</body>
+  </head>
+  <body></body>
 </html>
 ```
 
 This is the minimal code that an HTML document should have to make up a website. And here we have:
 
-1. `<!DOCTYPE html>`: First we have Doctype. For some weird historical reason in HTML we have to include the doctype for everything to work correctly.
+1. `<!DOCTYPE html>`: First we have `Doctype`. For some weird historical reason in HTML we have to include the doctype for everything to work correctly.
 2. `<html lang="en"></html>`: The `<html>` element wraps all the content on the page, also known as the root element. And we should always include the `lang` attribute to declare the language of the page.
 3. `<head></head>`: The `<head>` element is a container for everything you want to include, but not content that you show to your users.
-4. `<meta charset="UTF-8" />`: The first meta element is used to set the character set to be UTF-8, which includes most characters from written languages.
+4. `<meta charset="UTF-8" />`: The first meta element is used to set the character set to be `UTF-8`, which includes most characters from written languages.
 5. `<meta name="viewport" content="width=device-width, initial-scale=1.0" />`: The second meta element specifies the browser viewport. This setting is for a mobile-optimized site.
 6. `<title>Document</title>`: This is the `<title>` element. It sets the title of the page.
 7. `<body></body>`: The `<body>` element contains all the content on the page.
+
+To check what the user would actually see on such website, open your `index.html` in the browser of your choice.
 
 ## How to build a pancake recipe page
 
@@ -43,9 +44,9 @@ In the header, we want to have the logo and the navigation. Therefore, let's cre
 For the navigation, let's use the `<nav>` element. Within the `<nav>` element, we can use `<ul>` to create an unordered list.
 We want to have 3 `<li>` elements for 3 links: Ingredients, Steps, and Subscribe. The header code looks like this:
 
-```
+```html
 <header>
-<div>BEER RECIPE</div>
+  <div>BEER RECIPE</div>
   <nav>
     <ul>
       <li><a href="#ingredients">Ingredients</a></li>
@@ -60,15 +61,14 @@ We want to have 3 `<li>` elements for 3 links: Ingredients, Steps, and Subscribe
 
 In the main section, first, we want to have a title and an image. We can use `h1` for the title and `<img>` for the image (we can use an image from Unsplash for free):
 
-```
+```html
 <main>
-    <h1>Another Zombie Dust Clone
-</h1>
-    <img
-        src="https://untappd.akamaized.net/photos/2018_08_18/9a3d698621a81b29bfd26b2df99446ff_raw.jpeg"
-        alt="beer"
-        width="250"
-    />
+  <h1>Another Zombie Dust Clone</h1>
+  <img
+    src="https://untappd.akamaized.net/photos/2018_08_18/9a3d698621a81b29bfd26b2df99446ff_raw.jpeg"
+    alt="beer"
+    width="250"
+  />
 </main>
 ```
 
@@ -76,7 +76,7 @@ Next, we want to list all the ingredients. We can use `<ol>` to create an ordere
 
 But before that, we can use `<h2>` to start a new content block. We also want to add the id attribute for `<h2>` so that the link in the navigation knows where to go:
 
-```
+```html
 ...
 <main>
   ...
@@ -127,13 +127,13 @@ But before that, we can use `<h2>` to start a new content block. We also want to
 
 After the ingredients, we want to list all the steps. We can use `<h4>` for the step heading and `<p>` for the step content:
 
-```
+```html
 ...
-    <main>
-    ...
-      <h2 id="steps">Steps</h2>
-      <h4>Additional Instructions</h4>
-    <ol>
+<main>
+  ...
+  <h2 id="steps">Steps</h2>
+  <h4>Additional Instructions</h4>
+  <ol>
     <li>
       <span>Boil: 60 Minutes</span>
     </li>
@@ -141,18 +141,17 @@ After the ingredients, we want to list all the steps. We can use `<h4>` for the 
       <span>Primary Ferment: 10 days</span>
     </li>
     <li>
-      <span
-        >Secondary Ferment: 12 days</span
-      >
+      <span>Secondary Ferment: 12 days</span>
     </li>
   </ol>
-      <h4>Procedure</h4>
-      <p>
-       Nothing really out of the ordinary. I steeped the grains at 150 and fermented between 60 & 65 degrees.
-       Jump started the yeast with a cup cooled wort.
-       After 10 days I dumped trub in the conical and gave it another 12 days to clarify then bottled in 22oz bottles.
-      </p>
-    </main>
+  <h4>Procedure</h4>
+  <p>
+    Nothing really out of the ordinary. I steeped the grains at 150 and
+    fermented between 60 & 65 degrees. Jump started the yeast with a cup cooled
+    wort. After 10 days I dumped trub in the conical and gave it another 12 days
+    to clarify then bottled in 22oz bottles.
+  </p>
+</main>
 ...
 ```
 
@@ -164,21 +163,21 @@ In the footer, we want to have a subscribe form and copyright text.
 
 For the subscribe form, we can use the `<form>` element. Inside it, we can have an `<input type="text">` for text input and a `<button>` for the submit button.
 
-For the copyright text, we can simply use a `<div>`. Notice here, we can use the HTML entity $copy; for the copyright symbol.
+For the copyright text, we can simply use a `<div>`. Notice here, we can use the HTML entity `$copy;` for the copyright symbol.
 
 We can add `<br>` to add some space between the subscribe form and the copyright text:
 
-```
+```html
 ...
-    <footer>
-      <h6 id="subscribe">Subscribe</h6>
-      <form onsubmit="alert('Subscribed')">
-        <input type="text" placeholder="Enter Email Address" />
-        <button>Submit</button>
-      </form>
-      <br />
-      <div>&copy; Beer 4 you </div>
-    </footer>
+<footer>
+  <h6 id="subscribe">Subscribe</h6>
+  <form onsubmit="alert('Subscribed')">
+    <input type="text" placeholder="Enter Email Address" />
+    <button>Submit</button>
+  </form>
+  <br />
+  <div>&copy; Beer 4 you</div>
+</footer>
 ...
 ```
 
