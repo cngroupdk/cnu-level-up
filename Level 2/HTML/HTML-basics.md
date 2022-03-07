@@ -198,3 +198,7 @@ The tags have to open and close in a way that they are inside or outside one ano
 ```
 
 You cannot mix single quotes and double-quotes. You should always use double quotes and use HTML entities if needed.
+
+## Resources
+
+- [Traversy Media](https://www.youtube.com/watch?v=UB1O30fR-EE)
