@@ -4,18 +4,82 @@ The `String` object is used to represent and manipulate a sequence of characters
 
 Strings are useful for holding data that can be represented in text form. Some of the most-used operations on strings are to check their `length`, to build and concatenate them using the `+` and `+=` string operators, checking for the existence or location of substrings with the `indexOf()` method, or extracting substrings with the `substring()` method.
 
-Check the tutorials below to get deep into the topic:
+You can create strings with `"` or `'`. There is no difference between using a double quote or a single quote. They are exactly the same.
 
-- [1. Strings](https://learnjavascript.online/app.html?id=1440)
-- [2. Character access](https://learnjavascript.online/app.html?id=1444)
-- [3. Substring](https://learnjavascript.online/app.html?id=1447)
-- [4. Template strings](https://learnjavascript.online/app.html?id=1453)
+```js
+'This is a string';
+'This is another string!';
+```
 
-`String` object has much more build-in functionality. If you're looking for specific method, check [official documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#static_methods).
+## String Properties and Methods
+
+- `.length` is a property that gives you the length of a string
+- `.toUpperCase()` is a function that converts the string to upper case
+- `.toLowerCase()` is a function that converts the string to lower case
+- parentheses `()` on functions are required. `.length` is a property that is already pre-computed; therefore, it does not need parentheses.
+
+```js
+const text = 'Hello World';
+text.length; // 11
+text.toUpperCase(); // 'HELLO WORLD'
+text.toLowerCase(); // 'hello world'
+```
+
+`String` object has much more build-in functionality like:
+
+- `.slice()`
+- `.split()`
+- `.concat()`
+- `.includes()`
+- `.indexOf()`
+- `.replace()`
+
+If you're looking for specific method, check [official documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#static_methods).
+
+[Source](https://learnjavascript.online/app.html?id=1440)
+
+## Character access
+
+You can access a specific character in a string by using the square brackets syntax `[]`.
+
+You have to provide the `index` of the character that you'd like to access, starting from `0`.
+
+```js
+const language = 'Javascript';
+
+language[0]; //first character - "J"
+language[1]; //second character - "a"
+language[2]; //third character - "v"
+language[language.length - 1]; //last character - "t"
+```
+
+[Source](https://learnjavascript.online/app.html?id=1444)
+
+## Template strings
+
+A template string is a string created with the backtick character: `. Template strings can span multiple lines.
+
+```js
+const text = `This is a template string`;
+
+const multilineText = `This is a multiline
+string that
+just works!`;
+```
+
+Template strings support interpolation! This means you could write a variable in your string, and get its value. The syntax is straightforward, you wrap your variable name with a dollar sign and curly braces. Let's take an example where we have a variable language with a value of JavaScript.
+
+```js
+const language = 'JavaScript';
+
+console.log(`I am learning ${language}`); //"I am learning JavaScript";
+```
+
+[Source](https://learnjavascript.online/app.html?id=1453)
 
 ## Regular expression aka regex
 
-In some cases you might need to match strings according to some pattern, for example if string is email. This pattern is called `regular expression`.
+In some cases you might need to match `strings` according to some pattern, for example if string is email. This pattern is called `regular expression`.
 
 Javascript supports `regular expressions` through the standard class `RegExp` which is implemented natively in every modern browser.
 

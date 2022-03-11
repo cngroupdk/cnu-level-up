@@ -69,7 +69,7 @@ language = 'Python'; // ❌ Type error: this will break your script
 When you're browsing the Internet for documentation, or Questions & Answers on StackOverflow, you will see a lot of code snippets using `var` instead of `let` & `const`.
 Even though `var` still works, its usage is discouraged as it may be confusing in a lot of scenarios. So you can simply replace `var` with `let` (or `const` if the variable is not being reassigned).
 
-Reason why we don't recommend using `var`, is because variables declared with `var` keyword are belong to **global scope**. This might cause some unexpected behaviors because the way Javascript acts behind the scene.
+Reason why we don't recommend using `var`, is because variables declared with `var` keyword belong to **global scope**. This might cause some unexpected behaviors because of the way Javascript acts behind the scene.
 
 Before your JavaScript executes, the JavaScript engine will compile your code before it interprets it. Part of this compilation is to find all the variable declarations. It defines those declarations and associated them with their appropriate scopes. This is called `hoisting`.
 
@@ -90,3 +90,22 @@ greet();
 If you are not sure, check [Hoisting Explained Video](https://egghead.io/lessons/javascript-hoisting-in-javascript).
 
 > **Pro tip:** Avoid using `var` when defining variables. Use `let` or `const` instead.
+
+### Quiz
+
+- [Javascript Questions #1](https://github.com/lydiahallie/javascript-questions#1-whats-the-output)
+- [Javascript Questions #111](https://github.com/lydiahallie/javascript-questions#111-whats-the-output)
+- [Javascript Questions #129](https://github.com/lydiahallie/javascript-questions#129-whats-the-output)
+- [Javascript Questions #84](https://github.com/lydiahallie/javascript-questions#84-whats-the-output)
+
+## Closure
+
+A `closure` is the combination of a `function` bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a `closure` gives you access to an outer `function’s scope` from an inner function. In JavaScript, `closures` are created every time a `function` is created, at `function` creation time.
+
+For more info check out [You Don't Know JS - Scope & Closures](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch7.md)
+
+This is pretty difficult concept. Don't worry if you won't get it in the first try. To practice your understanding check this quiz:
+
+- [Javascript Questions #123](https://github.com/lydiahallie/javascript-questions#129-whats-the-output)
+- [Questions 2: Lost in parameters](https://dmitripavlutin.com/javascript-closures-interview-questions/#questions-2-lost-in-parameters)
+- [Questions 3: Who's who](https://dmitripavlutin.com/javascript-closures-interview-questions/#questions-3-whos-who)
