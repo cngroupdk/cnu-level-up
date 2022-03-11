@@ -4,12 +4,12 @@
 
 An important idea in programming is scope. Scope defines where variables can be accessed or referenced. While some variables can be accessed from anywhere within a program, other variables may only be available in a specific context.
 
+In this lesson, you learned about scope and how it impacts the accessibility of different variables.
+
 To really understand this concept check the links below:
 
 - [Global Scope](https://www.codecademy.com/courses/introduction-to-javascript/lessons/scope/exercises/global-scope)
 - [Block Scope](https://www.codecademy.com/courses/introduction-to-javascript/lessons/scope/exercises/block-scope)
-
-In this lesson, you learned about scope and how it impacts the accessibility of different variables.
 
 Let’s review the following terms:
 

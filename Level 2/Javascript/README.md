@@ -20,12 +20,12 @@ TO BE ADDED:
 
 -->
 
-## Sources
+# Sources
 
 - [CodeAcademy: Javascript course](https://www.codecademy.com/learn/introduction-to-javascript)
 - [learnjavascript.online](https://learnjavascript.online/)
 
-## Cheatsheets
+# Cheatsheets
 
 - [Javascript Syntax](https://devhints.io/es6)
 - [Javascript Arrays](https://devhints.io/js-array)
