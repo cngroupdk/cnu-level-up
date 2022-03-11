@@ -1,4 +1,4 @@
-# Level 2
+# CNU Level 2: Basics of Javascript, HTML, CSS
 
 In this level you will get familiar with **Holy Trinity of web development**:
 

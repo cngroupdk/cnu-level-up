@@ -1,3 +1,0 @@
-# VS Code shortcuts
-
-TBD
