@@ -1,5 +1,16 @@
 # Level 2 - HTML basics
 
+In this lesson you will learn basic of HTML and you will go through following topics:
+
+- [What Is HTML?](#what-is-html)
+- [What Are HTML Elements?](#what-are-html-elements)
+- [How to Nest HTML Elements](#how-to-nest-html-elements)
+- [What are HTML Attributes?](#what-are-html-attributes)
+- [Common HTML elements](#common-html-elements)
+- [Resources](#resources)
+
+At the end it's time to put your newly learned skills into practice. Follow the link [HTML Practice](./HTML-practice.md) to create your very first page. If you will get stuck, check [HTML Cheat sheet](./HTML%20Cheat%20Sheet.md) for some useful tips.
+
 ## What Is HTML?
 
 HTML, which stands for Hypertext Markup Language, is a pretty simple language. It consists of different elements which we use to structure a web page.
