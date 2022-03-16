@@ -46,7 +46,7 @@ let language = 'C++';
 language = 'JavaScript';
 ```
 
-**Sources:**
+**Resources:**
 
 - [egghead.io](https://egghead.io/lessons/javascript-the-let-keyword-in-es6)
 - [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
