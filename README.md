@@ -8,6 +8,6 @@ This repo serves as your guide and place where you can find all information you 
 
 - [Level 1: PC setup](./Level%201)
 - [Level 2: Basics of Javascript, HTML, CSS](./Level%202)
-- Level 3: Git (TBD)
-- Level 4: Agile development (TBD)
-- Level 5: Your Project (TBD)
+- [Level 3: Git](./Level%203) (TBD)
+- [Level 4: Agile development](./Level%204) (TBD)
+- [Level 5: Your Project](./Level%205) (TBD)
