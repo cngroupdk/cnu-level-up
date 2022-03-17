@@ -67,7 +67,7 @@ To style an HTML element, you can add the style attribute directly to the openin
 - `Property` — The first part of the declaration that signifies what visual characteristic of the element is to be modified.
 - `Value` — The second part of the declaration that signifies the value of the property.
 
-It’s important to know that inline styles are a quick way of directly styling an HTML element, but are rarely used when creating websites. But you may encounter circumstances where inline styling is necessary, so understanding how it works, and recognizing it in HTML code is good knowledge to have.
+> It’s important to know that inline styles are a quick way of directly styling an HTML element, but are rarely used when creating websites. But you may encounter circumstances where inline styling is necessary, so understanding how it works, and recognizing it in HTML code is good knowledge to have.
 
 ### Internal Stylesheet
 
@@ -84,7 +84,7 @@ It’s important to know that inline styles are a quick way of directly styling 
 </head>
 ```
 
-An `internal stylesheet` has certain benefits and use cases over inlines styles, but once again, it’s not best practice (we’ll get there, we promise). Understanding how to use `internal stylesheets` is nonetheless helpful knowledge to have.
+> An `internal stylesheet` has certain benefits and use cases over inlines styles, but once again, it’s not best practice (we’ll get there, we promise). Understanding how to use `internal stylesheets` is nonetheless helpful knowledge to have.
 
 ### External Stylesheet
 
@@ -92,7 +92,7 @@ Developers avoid mixing code by storing `HTML` and `CSS` code in separate files 
 
 You can create an _external stylesheet_ by using the `.css` file name extension, like so: `style.css`
 
-With an _external stylesheet_, you can write all the CSS code needed to style a page without sacrificing the readability and maintainability of your HTML file.
+> With an _external stylesheet_, you can write all the CSS code needed to style a page without sacrificing the readability and maintainability of your HTML file.
 
 You can use the `<link>` element to link `HTML` and `CSS` files together. The `<link>` element must be placed within the head of the `HTML` file.
 

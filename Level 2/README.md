@@ -29,6 +29,17 @@ During your first week in CN you will be assigned small homeworks to improve you
 
 Good luck and happy coding!
 
+## “Stand-up”
+
+As mentioned before you and your mentors gonna have a meeting every single day, so-called `stand-ups`
+
+**What can you expect?**
+
+- discussing your questions
+- demoing your status
+- code-review with focus on code quality
+- all questions should be prepared for the stand-up
+
 ## Learning = making mistakes
 
 We want to say this loud and clear, learning programming is a process of making mistakes and learning from them. Do NOT get discouraged when you can't solve a challenge.
