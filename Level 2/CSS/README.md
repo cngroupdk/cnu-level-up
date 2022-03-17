@@ -8,6 +8,7 @@ While [HTML](../HTML/) is the fundamental structure of every web page, it can be
   - [Internal Stylesheet](#internal-stylesheet)
   - [External Stylesheet](#external-stylesheet)
 - [Usefull resources](#usefull-resources)
+  - [Games to practice `flex-box`](#games-to-practice-flex-box)
 
 ## CSS Anatomy
 
