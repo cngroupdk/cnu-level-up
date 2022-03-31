@@ -1,6 +1,6 @@
 # CNU Level 1: Macbook setup
 
-**Macbooks** are excellent machines for frontend developers. Out of the box, they provide support for UNIX command line environment (shell) and allow installation of all major browsers (**Chrome**, **Firefox** & **Safari**). They also provide a platform for native **iOS** development, which is necessary for technologies like **ReactNative**. By installing the essential tool of this platform, `xode`, you gain access to the **iOS Simulator**, which can be used to preview your web apps on any type of **iPhone** or **iPad**.
+**Macbooks** are excellent machines for frontend developers. Out of the box, they provide support for UNIX command line environment (shell) and allow installation of all major browsers (**Chrome**, **Firefox** & **Safari**). They also provide a platform for native **iOS** development, which is necessary for technologies like **ReactNative**. By installing the essential tool of this platform, `xcode`, you gain access to the **iOS Simulator**, which can be used to preview your web apps on any type of **iPhone** or **iPad**.
 
 ## 1. Installing software onto your Mac
 
