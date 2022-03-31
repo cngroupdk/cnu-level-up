@@ -36,7 +36,7 @@ _Please note, you don't need to overwhelm yourself by installing and exploring t
 
 In order to develop in **ReactNative** and/or to use the **iOS Simulator** app, the `xcode` environment has to be installed from the **App Store**. However, **it's unlikely you would need it at this stage** and only install it if instructed to do so or if you really want to check it out. Also keep in mind that the installation is several gigabytes large.
 
-What you will needed from the start, however, are the `xcode commnad line tools`. At the very least, `git` would not work without these. [`xcode tools`](https://www.maketecheasier.com/install-command-line-tools-without-xcode/) can be installed from the terminal:
+What you will needed from the start, however, are the `xcode command line tools`. At the very least, `git` would not work without these. **[`xcode tools`](https://www.maketecheasier.com/install-command-line-tools-without-xcode/) should be installed automatically with Homebrew!** If you type `git --version` in your terminal and get back a version number, you should be fine already. If you and got back `command not found`, you should install `xcode-tools`  be installed from the terminal:
 
 `xcode-select --install`
 
@@ -44,17 +44,28 @@ What you will needed from the start, however, are the `xcode commnad line tools`
 
 `Node JS` is an essential tool which powers the modern frontend development. While you can download and install `node` manually using an official installer, it is not actually the recommended way. In practice, projects you encounter will differ greatly in their required version of `node`, but you can only have one version of `node` installed on your system. To combat this problem, tools like `nvm` must be used. They allow you to pre-install any number of node versions and then have only one "active".
 
-`nvm` can be installed via Homebrew: `brew install nvm`
+`nvm` can be installed via Homebrew: `brew install nvm`.
 
-You can verify the installation with: `nvm --version`
+Before you can start using `nvm`, you must tell your shell how it should interpret the `nvm` command. This is a tricky part, as you must locate the configuration file of your shell and open it in your editor. If you don't know what a shell is and haven't mess around your system, the file you are looking for is most likely `/Users/myName/.bashrc`. If you already have `zsh` installed (section #6), the file would instead be `.zshrc`. Once you have the file, append the following at the very bottom:
 
-To list currently installed `node` versions, use: `nvm ls`
+```
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
+```
 
-To add a particular version: `nvm install 10.16.0`
+Don't be afraid, ask for help, if needed ;-)
 
-A full installation guide can be found [here](https://tecadmin.net/install-nvm-macos-with-homebrew/).
+After installation and configuration, you can verify if `nvm` is working with: `nvm --version`.
+
+To list currently installed `node` versions, use: `nvm ls`.
+
+To add a particular version: `nvm install 10.16.0`.
+
+A full installation guide [can be found here](https://tecadmin.net/install-nvm-macos-with-homebrew/).
 
 > Projects usually have a special file, `.nvmrc`, which contains the required version. Whenever you switch your terminal to such project's directory, use the command `nvm use` to activate the version from the `.nvmrc` file. `nvm` would warn you if that version is not installed, all you need to do in such case is to add it with the command mentioned above.
+
+> Please note that `nvm use` **does not work** on Windows.
 
 **NPM**
 
