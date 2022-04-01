@@ -36,7 +36,7 @@ _Please note, you don't need to overwhelm yourself by installing and exploring t
 
 In order to develop in **ReactNative** and/or to use the **iOS Simulator** app, the `xcode` environment has to be installed from the **App Store**. However, **it's unlikely you would need it at this stage** and only install it if instructed to do so or if you really want to check it out. Also keep in mind that the installation is several gigabytes large.
 
-What you will needed from the start, however, are the `xcode command line tools`. At the very least, `git` would not work without these. **[`xcode tools`](https://www.maketecheasier.com/install-command-line-tools-without-xcode/) should be installed automatically with Homebrew!** If you type `git --version` in your terminal and get back a version number, you should be fine already. If you and got back `command not found`, you should install `xcode-tools`  be installed from the terminal:
+What you will needed from the start, however, are the `xcode command line tools`. At the very least, `git` would not work without these. **[`xcode tools`](https://www.maketecheasier.com/install-command-line-tools-without-xcode/) should be installed automatically with Homebrew!** If you type `git --version` in your terminal and get back a version number, you should be fine already. If you get back `command not found`, you should install `xcode-tools` from the terminal:
 
 `xcode-select --install`
 
