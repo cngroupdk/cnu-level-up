@@ -10,13 +10,15 @@ Common desktop apps like browsers can be easily installed via the Apple's **App 
 
 Frontend development requires basic knowledge of working in the command line. On **Windows**, you may have already used the **Command Prompt** or the **PowerShell**. On **Mac** or **Linux**, the command line environment is called a **shell** and the app through which you can access the shell is called a **terminal**. Mac provides a default terminal application out of the box, but there are much better alternatives out there.
 
-> For the sake of simplicity, you can consider the words _terminal_, _command line_, _shell_ or _command prompt_ to mean the same thing - a screen where you can type-in and execute commands.
+> For the sake of simplicity, you can consider the words _terminal_, _command line_, _shell_ or _command prompt_ to mean the same thing - a screen where you can type-in and execute commands. 
 
 For a beginner, the [iTerm2](https://iterm2.com/downloads.html) is the best choice. It comes with lots of bells and whistles and allows for some pretty advanced configurations. However, you do not need to overwhelm yourself with the options and adjusting the font family and size maybe the only configuration you will need.
 
 _Please note that installing a terminal app is not required and that you can handle everything command-line-related from within the built-in **VS Code** terminal. There's nothing wrong of using only this terminal as it provides you with the same environment as a standalone application would. Although a good terminal and command-line knowledge empowers you to do many cool things, only few basic commands are essential at the beginning. For these reasons, a terminal built into your editor should suffice._
 
 > A pro tip - you don't need to re-enter previously used commands each time you want to use them since every terminal app has a history log that you can navigate through. The most simple way is to use the arrow-up key repeatedly on an empty command line to access previous commands. A better way, however, is to press `Ctrl+R` keys and to start typing beginning of your command. This would lead to a matching command from your history being shown.
+
+> For a beginner-friendly introduction to terminals and shells, we recommend [this article](https://www.freecodecamp.org/news/command-line-for-beginners/).
 
 ## 3. Homebrew - the package manager
 
@@ -82,6 +84,8 @@ _Using these tools is entirely optional and only makes sense if you would like t
 When you open a terminal and type in a command, it would get executed thanks to a command-line interpreter. In UNIX-based world of **Mac** and **Linux**, this interpreter is called a **shell**. **Mac** comes with a pre-installed default shell called `bash`, which allows you to do everything you may ever need to do in a shell. However, there are actually many different shells to choose from and switching from `bash` to something else can provide you with some niceties that make everyday life in the command line easier.
 
 `zsh`, together with its extension `oh-my-zsh`, is a version of shell which maintains lots of popularity among frontend developers. The extension adds many useful tools, which come as configurable plugins. There are many plugins to choose from, but for the start, `git` and `wd` can provide a nice productivity boost.
+
+> For a beginner-friendly introduction to terminals and shells, we recommend [this article](https://www.freecodecamp.org/news/command-line-for-beginners/).
 
 **Installation**
 
