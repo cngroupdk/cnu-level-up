@@ -2,13 +2,13 @@
 
 For most of you, the working in the `agile` way is the new thing. Don't worry we will give you all resources needed for you to become _"Agile champion"_
 
-## Agile (TBD)
+## Agile
 
 Important values that covers the Agile principles in general: [Agile Manifesto](https://agilemanifesto.org/principles.html)
 
-## Scrum (TDB)
+## Scrum
 
-Scrum is a framework for developing and sustaining complex products. This Guide contains the definition of Scrum. This definition consists of Scrum’s roles, events, artifacts, and the rules that bind them together. Ken Schwaber and Jeff Sutherland developed Scrum; the Scrum Guide is written and provided by them. Together, they stand behind the [Scrum Guide](https://scrumguides.org/scrum-guide.html)
+Scrum is a framework for developing and sustaining complex products. [Scrum Guide](https://scrumguides.org/scrum-guide.html) contains the definition of Scrum. This definition consists of Scrum’s roles, events, artifacts, and the rules that bind them together.
 
 ### Tutorials and explainers
 
