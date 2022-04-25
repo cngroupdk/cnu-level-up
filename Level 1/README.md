@@ -2,6 +2,41 @@
 
 **Macbooks** are excellent machines for frontend developers. Out of the box, they provide support for UNIX command line environment (shell) and allow installation of all major browsers (**Chrome**, **Firefox** & **Safari**). They also provide a platform for native **iOS** development, which is necessary for technologies like **ReactNative**. By installing the essential tool of this platform, `xcode`, you gain access to the **iOS Simulator**, which can be used to preview your web apps on any type of **iPhone** or **iPad**.
 
+## TLDR
+
+Stuff to install:
+
+- `Homebrew`
+  ```
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  ```
+- Terminal (`iTerm2`)
+
+  ```
+  brew install --cask iterm2
+  ```
+
+- `zsh` and `oh-my-zsh`
+  ```
+  brew install zsh
+  ```
+  ```
+  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  ```
+  - GIT and WD plugin in `zsh`
+    - file `/Users/myName/.zshrc`
+    ```
+    plugins=(git wd)
+    ```
+- `node`, node version manager (`nvm`/`fnm`), `npm`/`yarn`
+- Text editor (`VS Code`)
+  ```
+  brew install --cask visual-studio-code
+  ```
+  - ESLint
+  - Prettier
+  - GitLens
+
 ## 1. Installing software onto your Mac
 
 Common desktop apps like browsers can be easily installed via the Apple's **App Store** or the CN-provided **Trubadix** app. In general, use those apps to search for anything you need as they provide the most safe way to install software. Of course, the traditional way of downloading and installing programs manually works as well.
@@ -101,13 +136,13 @@ After installation, open the file `.zshrc` from your home folder (i.e. `/Users/m
 
 Save the file and quit and reopen the terminal.
 
-**GIT plugin in `zsh`**
+<!-- **GIT plugin in `zsh`**
 
 TBA
 
 **WD plugin in `zsh`**
 
-TBA
+TBA -->
 
 ## 7. Code editor
 
