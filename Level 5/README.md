@@ -9,8 +9,7 @@
 
 ## Project Domain Ideas
 
-- Blogging app
-- Jokes app
+- [Jokes app](https://github.com/cngroupdk/CNjokes)
 - [Podcast app](https://www.listennotes.com/api/docs/)
 - [Public API](https://github.com/public-apis/public-apis)
 
