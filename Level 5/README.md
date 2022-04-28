@@ -1,19 +1,21 @@
 # CNU Level 5: Your Project
 
-## How to start project
+## How to Start Project
 
-- Pick domain of the project - _What you gonna create?_
+- Think of the project domain - _What you gonna create?_
 - Break down your project to smaller parts/steps
 - Pick your tech stack - _What will we use?_
 - [Set-up project](https://gitlab.com/cngroupdk/sensei/public-materials/-/tree/main/npm-setup-example#npm-project-setup)
 
 ## Project Domain Ideas
 
-- [Jokes app](https://github.com/cngroupdk/CNjokes)
-- [Podcast app](https://www.listennotes.com/api/docs/)
-- [Public API](https://github.com/public-apis/public-apis)
+- React:
+    - [CN Jokes](https://github.com/cngroupdk/CNjokes)
+- Node.js:
+    - [Podcast App](https://www.listennotes.com/api/docs/)
+    - [Public API](https://github.com/public-apis/public-apis)
 
-## Topic to cover:
+## Topic to Cover
 
 - Project setup - git repo, ESlint
 - Agile development - creating tasks, trello board, management of work
