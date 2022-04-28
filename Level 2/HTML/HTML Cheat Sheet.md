@@ -50,11 +50,11 @@ A reminder of HTML elements.
   <base href="base-url" />
   <link href="style.css" rel="stylesheet" type="text/css" />
   <style type="text/css">
-    /* CSS code */
+    /* CSS */
   </style>
   <script src="script.js"></script>
   <script>
-    // Javascript code
+    // JavaSript
   </script>
   <meta charset="UTF-8" />
   <meta name="keywords" content="keywords" />
@@ -70,7 +70,7 @@ A reminder of HTML elements.
 | **base**                                       | base url for all links   |
 | **link**                                       | link to external source  |
 | **style**                                      | CSS inside HTML page     |
-| **script**                                     | Javascript code          |
+| **script**                                     | JavaScript code          |
 | **meta**                                       | metadata                 |
 | **meta** _http-equiv_="refresh" _content_="10" | auto-refresh page in 10s |
 
@@ -314,26 +314,35 @@ A reminder of HTML elements.
 
 ```html
 <form action="url" method="post">
-    <fieldset>
-        <legend>Who are you ?</legend>
-        <label>Login :<input type="text" name="login" /></label><br/>
-        <label for="pswd">Password :</label><input type="password" name="password" id="pswd" /><br/>
-        <input type="radio" name="sex" value="male" />Male<br/>
-        <input type="radio" name="sex" value="female" />Female<br/>
-    </fieldset>
+  <fieldset>
+    <legend>Who are you ?</legend>
+    <label>Login :<input type="text" name="login" /></label><br />
+    <label for="pswd">Password :</label>
+    <input type="password" name="password" id="pswd" /><br />
+    <input type="radio" name="sex" value="male" />Male<br />
+    <input type="radio" name="sex" value="female" />Female<br />
+  </fieldset>
 
-    <label>Your favorite color : <select name="color">
-        <option>red</option>
-        <option>green</option>
-        <option>blue</option>
-    </select></label>
+  <label
+    >Your favorite color :
+    <select name="color">
+      <option>red</option>
+      <option>green</option>
+      <option>blue</option>
+    </select></label
+  >
 
-    <input type="checkbox" name="available" value="monday" />Monday<br/>
-    <input type="checkbox" name="available" value="tuesday" />Tuesday<br/>
+  <input type="checkbox" name="available" value="monday" />Monday<br />
+  <input type="checkbox" name="available" value="tuesday" />Tuesday<br />
 
-    <textarea name="comments" rows="10" cols="30" placeholder="Write your comments here"><textarea/>
+  <textarea
+    name="comments"
+    rows="10"
+    cols="30"
+    placeholder="Write your comments here"
+  ></textarea>
 
-    <input type="submit" value="Button text">
+  <input type="submit" value="Button text" />
 </form>
 ```
 

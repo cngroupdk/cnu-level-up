@@ -1,8 +1,8 @@
-# Level 2 - Javascript basics
+# Level 2 - JavaScript basics
 
 Topics you will cover in this section:
 
-1. [What is Javascript](./1.%20What%20is%20Javascript/)
+1. [What is JavaScript](./1.%20What%20is%20JavaScript/)
 2. [Conditionals](./2.%20Conditionals/)
 3. [Functions](./3.%20Functions/)
 4. [Scopes and variables](./4.%20Scopes%20and%20variables/)
@@ -17,14 +17,14 @@ Topics you will cover in this section:
 
 # Sources
 
-- [CodeAcademy: Javascript course](https://www.codecademy.com/learn/introduction-to-javascript)
+- [CodeAcademy: JavaScript course](https://www.codecademy.com/learn/introduction-to-javascript)
 - [JavaScript for absolute beginnerså](https://opentechschool.github.io/js-beginners-1/)
 - [learnjavascript.online](https://learnjavascript.online/)
 - [JavaScript to Know for React](https://kentcdodds.com/blog/javascript-to-know-for-react)
 
 # Cheatsheets
 
-- [Javascript Syntax](https://devhints.io/es6)
-- [Javascript Arrays](https://devhints.io/js-array)
-- [Javascript Fetch](https://devhints.io/js-fetch)
-- [Javascript Promise](https://devhints.io/promise)
+- [JavaScript Syntax](https://devhints.io/es6)
+- [JavaScript Arrays](https://devhints.io/js-array)
+- [JavaScript Fetch](https://devhints.io/js-fetch)
+- [JavaScript Promise](https://devhints.io/promise)

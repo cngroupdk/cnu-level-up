@@ -1,4 +1,4 @@
-# Javascript: Conditionals
+# JavaScript: Conditionals
 
 We’ll be covering the following concepts:
 

@@ -1,4 +1,4 @@
-# Javascript: Arrays (TBD)
+# JavaScript: Arrays (TBD)
 
 # Exercises
 

@@ -1,4 +1,4 @@
-# Javascript: String
+# JavaScript: String
 
 The `String` object is used to represent and manipulate a sequence of characters.
 
@@ -45,7 +45,7 @@ You can access a specific character in a string by using the square brackets syn
 You have to provide the `index` of the character that you'd like to access, starting from `0`.
 
 ```js
-const language = 'Javascript';
+const language = 'JavaScript';
 
 language[0]; //first character - "J"
 language[1]; //second character - "a"
@@ -81,7 +81,7 @@ console.log(`I am learning ${language}`); //"I am learning JavaScript";
 
 In some cases you might need to match `strings` according to some pattern, for example if string is email. This pattern is called `regular expression`.
 
-Javascript supports `regular expressions` through the standard class `RegExp` which is implemented natively in every modern browser.
+JavaScript supports `regular expressions` through the standard class `RegExp` which is implemented natively in every modern browser.
 
 ```js
 // Literal notation to match a string of alpha-numeric characters
@@ -94,7 +94,7 @@ If you need to test your regex or its validity you can use the useful [site](htt
 
 ### Matching string
 
-The `RegExp` object has a number of top level methods, and to test whether a regular expression matches a specific string in Javascript, you can use `RegExp.test()`. To actually extract information from a string using a regular expression, you can instead use the `RegExp.exec()` call which provides more information about the match in its result.
+The `RegExp` object has a number of top level methods, and to test whether a regular expression matches a specific string in JavaScript, you can use `RegExp.test()`. To actually extract information from a string using a regular expression, you can instead use the `RegExp.exec()` call which provides more information about the match in its result.
 
 ```js
 // Lets use a regular expression to match a date string.

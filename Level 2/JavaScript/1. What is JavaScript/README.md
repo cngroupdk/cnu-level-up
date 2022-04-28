@@ -1,11 +1,11 @@
 # What is JavaScript?
 
-Let's start from the beginning and take a look at the `Javascript`. In this section you will learn some of the basic concepts and go through the topics listed below. At the end there are some exercises for you.
+Let's start from the beginning and take a look at the `JavaScript`. In this section you will learn some of the basic concepts and go through the topics listed below. At the end there are some exercises for you.
 
 **Table of content:**
 
 - Theory:
-  - [1. Javascript](#javascript)
+  - [1. JavaScript](#javascript)
   - [2. Console](#console)
   - [3. Comments](#comments)
   - [4. Data Types](#data-types)
@@ -17,7 +17,7 @@ Let's start from the beginning and take a look at the `Javascript`. In this sect
   - [10. Review](#review)
 - [Exercises](#exercises)
 
-## Javascript
+## JavaScript
 
 `JavaScript` is primarily known as the language of most modern web browsers, and its early quirks gave it a bit of a bad reputation. However, the language has continued to evolve and improve.
 
@@ -81,9 +81,10 @@ Data types are how data in programming is classified. In JavaScript, there are e
    1, -2, 99, 3.14.
   ```
 - `string` Any grouping of characters on your keyboard (letters, numbers, spaces, symbols, etc.) surrounded by single quotes `''` or double quotes `""`.
-  ```js
+  <!-- prettier-ignore -->
+    ```js
   'single quotes';
-  'double quotes';
+  "double quotes";
   ```
 - `boolean` This data type only has two possible values — either `true` or `false`.
   ```js

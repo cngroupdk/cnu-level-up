@@ -45,7 +45,7 @@ Common desktop apps like browsers can be easily installed via the Apple's **App 
 
 Frontend development requires basic knowledge of working in the command line. On **Windows**, you may have already used the **Command Prompt** or the **PowerShell**. On **Mac** or **Linux**, the command line environment is called a **shell** and the app through which you can access the shell is called a **terminal**. Mac provides a default terminal application out of the box, but there are much better alternatives out there.
 
-> For the sake of simplicity, you can consider the words _terminal_, _command line_, _shell_ or _command prompt_ to mean the same thing - a screen where you can type-in and execute commands. 
+> For the sake of simplicity, you can consider the words _terminal_, _command line_, _shell_ or _command prompt_ to mean the same thing - a screen where you can type-in and execute commands.
 
 For a beginner, the [iTerm2](https://iterm2.com/downloads.html) is the best choice. It comes with lots of bells and whistles and allows for some pretty advanced configurations. However, you do not need to overwhelm yourself with the options and adjusting the font family and size maybe the only configuration you will need.
 

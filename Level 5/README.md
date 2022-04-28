@@ -10,10 +10,10 @@
 ## Project Domain Ideas
 
 - React:
-    - [CN Jokes](https://github.com/cngroupdk/CNjokes)
+  - [CN Jokes](https://github.com/cngroupdk/CNjokes)
 - Node.js:
-    - [Podcast App](https://www.listennotes.com/api/docs/)
-    - [Public API](https://github.com/public-apis/public-apis)
+  - [Podcast App](https://www.listennotes.com/api/docs/)
+  - [Public API](https://github.com/public-apis/public-apis)
 
 ## Topic to Cover
 

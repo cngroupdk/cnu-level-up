@@ -1,8 +1,8 @@
-# CNU Level 2: Basics of Javascript, HTML, CSS
+# CNU Level 2: Basics of JavaScript, HTML, CSS
 
 In this level you will get familiar with **Holy Trinity of web development**:
 
-- [Javascript](./Javascript/)
+- [JavaScript](./JavaScript/)
 - [HTML](./HTML/)
 - [CSS](./CSS/)
 
@@ -10,10 +10,10 @@ These 3 quests are not mutually connected and you can start with any of them. In
 
 During your first week in CN you will be assigned small homeworks to improve your technical skills. We will meet each morning to discuss your solutions. The exercises could be found at the end of each topic or in the list below:
 
-- Javascript
+- JavaScript
 
   - Micro tasks
-    - [Microtask 1](./Javascript/1.%20What%20is%20Javascript/exercises/task.html)
+    - [Microtask 1](./JavaScript/1.%20What%20is%20JavaScript/exercises/task.html)
     - [Mathematical operations](https://www.codewars.com/kata/57356c55867b9b7a60000bd7/train/javascript)
     - [Grade book](https://www.codewars.com/kata/55cbd4ba903825f7970000f5/train/javascript)
     - [Remove First and Last Character](https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0/train/javascript)
