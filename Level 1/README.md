@@ -2,40 +2,7 @@
 
 **Macbooks** are excellent machines for frontend developers. Out of the box, they provide support for UNIX command line environment (shell) and allow installation of all major browsers (**Chrome**, **Firefox** & **Safari**). They also provide a platform for native **iOS** development, which is necessary for technologies like **ReactNative**. By installing the essential tool of this platform, `xcode`, you gain access to the **iOS Simulator**, which can be used to preview your web apps on any type of **iPhone** or **iPad**.
 
-## TLDR
-
-Stuff to install:
-
-- `Homebrew`
-  ```
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-  ```
-- Terminal (`iTerm2`)
-
-  ```
-  brew install --cask iterm2
-  ```
-
-- `zsh` and `oh-my-zsh`
-  ```
-  brew install zsh
-  ```
-  ```
-  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-  ```
-  - GIT and WD plugin in `zsh`
-    - file `/Users/myName/.zshrc`
-    ```
-    plugins=(git wd)
-    ```
-- `node`, node version manager (`nvm`/`fnm`), `npm`/`yarn`
-- Text editor (`VS Code`)
-  ```
-  brew install --cask visual-studio-code
-  ```
-  - ESLint
-  - Prettier
-  - GitLens
+[TL;DR](#tldr)
 
 ## 1. Installing software onto your Mac
 
@@ -157,6 +124,60 @@ If you choose **VS Code** here are some useful VS Code plugins:
 - [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)
 - [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
 - [change-case](https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)
+
+
+---
+
+## TL;DR
+
+### 1. `Homebrew`
+  ```
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  ```
+### 2. Terminal (`iTerm2`)
+
+  ```
+  brew install --cask iterm2
+  ```
+
+### 3. `zsh` and `oh-my-zsh`
+Install: zsh:
+```
+brew install zsh
+```
+
+Install oh-my-zsh:
+```
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+Add GIT and WD plugin in `zsh` by adding to the file `~/.zshrc`
+```
+plugins=(git wd)
+```
+### 4. `node`, node version manager (`nvm`/`fnm`), node package manager `npm`/`yarn`
+Install nvm:
+```
+brew install nvm
+```
+
+Append at the end of file `~/.zshrc`
+```
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
+```
+
+Install latest node:
+```
+nvm install node
+```
+
+### 5. Text editor (`VS Code`)
+  ```
+  brew install --cask visual-studio-code
+  ```
+  - Plugins: ESLint, Prettier, GitLens
+
 
 # Cheatsheets
 
