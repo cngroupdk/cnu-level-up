@@ -10,8 +10,10 @@ Important values that covers the Agile principles in general: [Agile Manifesto](
 
 Scrum is a framework for developing and sustaining complex products. [Scrum Guide](https://scrumguides.org/scrum-guide.html) contains the definition of Scrum. This definition consists of Scrum’s roles, events, artifacts, and the rules that bind them together.
 
+
 ### Tutorials and explainers
 
+- [CNU Topics: Scrum](CNU_Scrum.pdf)
 - [Agile tips for CN projects](https://www.youtube.com/watch?v=AguqWO38Alo)
 
 Tools that helps with Scrum:

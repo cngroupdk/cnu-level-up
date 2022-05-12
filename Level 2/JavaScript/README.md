@@ -14,6 +14,7 @@ Topics you will cover in this section:
    - [Promise](https://javascript.info/promise-basics)
    - [await/async](https://javascript.info/async-await)
 10. [Fetch](https://javascript.info/fetch)
+11. [Value vs. Reference](https://www.freecodecamp.org/news/how-to-get-a-grip-on-reference-vs-value-in-javascript-cba3f86da223/)
 
 # Sources
 
