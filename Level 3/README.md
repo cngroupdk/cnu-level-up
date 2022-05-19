@@ -6,7 +6,7 @@
 
 ## Useful resources
 
-- [CNU Topics - Git](./CNU%20Topics%20-%20Git.pdf)
+- [CNU Topics - Git](../CNU%20Topics/CNU%20Topics%20-%20Git.pdf)
 - [Git-branching Practice](https://learngitbranching.js.org/)
 - [Git Cheatsheet](https://about.gitlab.com/images/press/git-cheat-sheet.pdf)
 

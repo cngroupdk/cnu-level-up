@@ -125,59 +125,70 @@ If you choose **VS Code** here are some useful VS Code plugins:
 - [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
 - [change-case](https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)
 
-
 ---
 
 ## TL;DR
 
 ### 1. `Homebrew`
-  ```
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-  ```
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
 ### 2. Terminal (`iTerm2`)
 
-  ```
-  brew install --cask iterm2
-  ```
+```
+brew install --cask iterm2
+```
 
 ### 3. `zsh` and `oh-my-zsh`
+
 Install: zsh:
+
 ```
 brew install zsh
 ```
 
 Install oh-my-zsh:
+
 ```
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
 Add GIT and WD plugin in `zsh` by adding to the file `~/.zshrc`
+
 ```
 plugins=(git wd)
 ```
+
 ### 4. `node`, node version manager (`nvm`/`fnm`), node package manager `npm`/`yarn`
+
 Install nvm:
+
 ```
 brew install nvm
 ```
 
 Append at the end of file `~/.zshrc`
+
 ```
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 ```
 
 Install latest node:
+
 ```
 nvm install node
 ```
 
 ### 5. Text editor (`VS Code`)
-  ```
-  brew install --cask visual-studio-code
-  ```
-  - Plugins: ESLint, Prettier, GitLens
 
+```
+brew install --cask visual-studio-code
+```
+
+- Plugins: ESLint, Prettier, GitLens
 
 # Cheatsheets
 
