@@ -12,7 +12,7 @@ Scrum is a framework for developing and sustaining complex products. [Scrum Guid
 
 ### Tutorials and explainers
 
-- [CNU Topics - Scrum](../CNU%20Topics/CNU%20Topics%20-%20Scrum.pdf)
+- [CNU Topics - Scrum](../CNU%20Topics/2022-05/CNU%20Topics%20-%20Scrum.pdf)
 - [Agile tips for CN projects](https://www.youtube.com/watch?v=AguqWO38Alo)
 
 Tools that helps with Scrum:
