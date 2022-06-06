@@ -63,7 +63,9 @@ After installation and configuration, you can verify if `nvm` is working with: `
 
 To list currently installed `node` versions, use: `nvm ls`.
 
-To add a particular version: `nvm install 10.16.0`.
+To add a current long-term supported version: `nvm install --lts` (**This is recommended**).
+
+In case you need to a specific version, run: `nvm install {version}` (for example `nvm install 18.3.0`).
 
 A full installation guide [can be found here](https://tecadmin.net/install-nvm-macos-with-homebrew/).
 
