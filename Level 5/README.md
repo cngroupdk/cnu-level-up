@@ -10,7 +10,7 @@
 ## Project Domain Ideas
 
 - [React](./ReactJS):
-  - [CN Jokes](https://github.com/cngroupdk/CNjokes)
+  - [CN Jokes](./ReactJS/cnu-jokes.md)
 - Node.js:
   - [Podcast App](https://www.listennotes.com/api/docs/)
   - [Public API](https://github.com/public-apis/public-apis)
