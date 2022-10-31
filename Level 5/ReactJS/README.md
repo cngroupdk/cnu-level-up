@@ -2,7 +2,7 @@
 
 Project Domain:
 
-- [CN Jokes](https://github.com/cngroupdk/CNjokes)
+- [CN Jokes](./cnu-jokes.md)
 
 ## Resources
 
