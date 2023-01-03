@@ -190,7 +190,7 @@ Math.floor(Math.random() * 50);
 ```
 
 The most commonly used are: `Math`, `Number`, `Date`, `String`, `RegExp`, `JSON`, `Promise` and more. Don't get too worried, you don't need to know them by heart.
-If you would need some specific build-in object check [Official documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects).
+If you would need some specific build-in object check [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects).
 
 ## Review
 

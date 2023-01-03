@@ -18,5 +18,5 @@ Scrum is a framework for developing and sustaining complex products. [Scrum Guid
 Tools that helps with Scrum:
 
 - [Trello](https://trello.com), [JIRA](https://www.atlassian.com/software/jira)
-- Scrum Poker cards, [Plan It Poker](https://www.planitpoker.com/)
+- Scrum Poker cards, [Planning Poker Online](https://planningpokeronline.com/), [Plan It Poker](https://www.planitpoker.com/)
 - Scrum Retrospective - board and sticky notes

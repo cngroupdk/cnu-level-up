@@ -4,11 +4,12 @@ The `String` object is used to represent and manipulate a sequence of characters
 
 Strings are useful for holding data that can be represented in text form. Some of the most-used operations on strings are to check their `length`, to build and concatenate them using the `+` and `+=` string operators, checking for the existence or location of substrings with the `indexOf()` method, or extracting substrings with the `substring()` method.
 
-You can create strings with `"` or `'`. There is no difference between using a double quote or a single quote. They are exactly the same.
+You can create strings with `'` or `"`. There is no difference between using a single quote or a double quote. They are exactly the same.
 
+<!-- prettier-ignore -->
 ```js
 'This is a string';
-'This is another string!';
+"This is another string!";
 ```
 
 ## String Properties and Methods
@@ -34,7 +35,7 @@ text.toLowerCase(); // 'hello world'
 - `.indexOf()`
 - `.replace()`
 
-If you're looking for specific method, check [official documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#static_methods).
+If you're looking for specific method, check [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#static_methods).
 
 [Source](https://learnjavascript.online/app.html?id=1440)
 
