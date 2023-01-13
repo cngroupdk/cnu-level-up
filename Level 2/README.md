@@ -24,7 +24,7 @@ During your first week in CN you will be assigned small homeworks to improve you
     - [Check value in array](https://www.codewars.com/kata/57cc975ed542d3148f00015b/train/javascript)
     - [Find the first non-consecutive number](https://www.codewars.com/kata/58f8a3a27a5c28d92e000144/train/javascript)
   - Small tasks
-    - [JS30 04 - Array functions](https://github.com/wesbos/JavaScript30/blob/master/04%20-%20Array%20Cardio%20Day%201/index-START.html)
+    - [JS30 04 - Array functions](https://github.com/wesbos/JavaScript30/blob/master/04%20-%20Array%20Cardio%20Day%201/index-START.html) (_Note: the exercise 6. has to be implemented in browser - open your DevTools and write your code in `Console` tab, do not forget to back-up your solution once you have finished it_)
     - [JS30 06 - Cities playaround](https://github.com/wesbos/JavaScript30/blob/master/06%20-%20Type%20Ahead/index-START.html)
     - [JS30 07 - Array .some .every](https://github.com/wesbos/JavaScript30/blob/master/07%20-%20Array%20Cardio%20Day%202/index-START.html)
     - [JS30 10 - multiple checkboxs with shift](https://github.com/wesbos/JavaScript30/blob/master/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes/index-START.html)
