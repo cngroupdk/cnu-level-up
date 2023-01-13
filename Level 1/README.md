@@ -163,7 +163,7 @@ Add GIT and WD plugin in `zsh` by adding to the file `~/.zshrc`
 plugins=(git wd)
 ```
 
-### 4. `node`, node version manager (`nvm`/`fnm`), node package manager `npm`/`yarn`
+### 4. `node`, node version manager (`nvm`)
 
 Install nvm:
 
@@ -190,10 +190,16 @@ nvm install node
 brew install --cask visual-studio-code
 ```
 
-- Plugins: ESLint, Prettier, GitLens
+Recommended plugins:
+
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - consider setting code formatting as on-save action
+- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+- [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 
 # Cheatsheets
 
 - [Mac shortcuts cheatsheet](https://support.apple.com/en-us/HT201236)
 - [VS Code cheatsheet](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
 - [Terminal cheatsheet](./cheatsheets/terminal.md)
+- [Terminal exercises (optional)](./terminal-exercises/README.md)
