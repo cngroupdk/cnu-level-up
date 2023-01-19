@@ -4,6 +4,11 @@ Project Domain:
 
 - [CN Jokes](./cnu-jokes.md)
 
+## Starting Points
+
+- [Create React App (CRA)](https://create-react-app.dev/)
+- [Next.js](https://nextjs.org/)
+
 ## Resources
 
 - [React Tutorials](https://beta.reactjs.org/learn)

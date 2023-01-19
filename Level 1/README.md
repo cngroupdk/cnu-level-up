@@ -203,3 +203,4 @@ Recommended plugins:
 - [VS Code cheatsheet](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
 - [Terminal cheatsheet](./cheatsheets/terminal.md)
 - [Terminal exercises (optional)](./terminal-exercises/README.md)
+- [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)
