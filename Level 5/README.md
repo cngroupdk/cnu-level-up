@@ -15,13 +15,26 @@
   - [Podcast App](https://www.listennotes.com/api/docs/)
   - [Public API](https://github.com/public-apis/public-apis)
 
+## Common Tools
+
+- Pick a hosting for your git repository:
+  - [GitHub](https://github.com/)
+  - [GitLab](https://gitlab.com/)
+  - [BitBucket](https://bitbucket.org/)
+- Tool to design and prototype your user interface:
+  - [Figma](https://figma.com/)
+  - [Invision](https://www.invisionapp.com/)
+- Task board:
+  - [Trello](https://trello.com/)
+  - [Hive](https://hive.com/)
+
 ## Topic to Cover
 
-- Project setup - git repo, ESlint
-- Agile development - creating tasks, trello board, management of work
+- Project setup
+- Agile development
 - Components
 - Fetching data
-- State managements - context/redux
+- State managements
 - Forms
 
 **Feature we recommend to avoid:**
