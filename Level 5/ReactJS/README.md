@@ -1,10 +1,10 @@
-# ReactJS
+# React
 
-Project Domain:
+## Project Domain Ideas
 
 - [CN Jokes](./cnu-jokes.md)
 
-## Starting Points
+## Recommended Stacks
 
 - [Create React App (CRA)](https://create-react-app.dev/)
 - [Next.js](https://nextjs.org/)

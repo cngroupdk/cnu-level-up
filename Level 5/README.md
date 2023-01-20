@@ -39,5 +39,5 @@
 
 **Feature we recommend to avoid:**
 
-- authentication and user management (advance topic that can be added later if necessary)
-- file uploading/downloading
+- Authentication and user management (advance topic that can be added later if necessary)
+- File uploading/downloading
