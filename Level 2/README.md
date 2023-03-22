@@ -41,7 +41,7 @@ Good luck and happy coding!
 
 ## “Stand-up”
 
-As mentioned before you and your mentors gonna have a meeting every single day, so-called `stand-ups`
+As mentioned before you and your mentors gonna have a meeting every single day, so-called `stand-ups`. In otder to make it as close to a regular stand-up as possible at least once or twice per week the standup will be in english.
 
 **What can you expect?**
 
